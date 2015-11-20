@@ -1,0 +1,1099 @@
+A -> 110	(0.167)
+T -> 10	(0.167)
+C -> 0	(0.667)
+G -> 111	(0.000)
+Cadena comprimida y descomprimida correctamente
+54 bits ocupados al comprimir usando algoritmo simple.
+
+Mejor simbolo encontrado: C -> 0.667
+	CA -> 0.278
+	AC -> 0.000
+	CT -> 0.000
+	TC -> 0.333
+	CC -> 0.667
+	CC -> 0.667
+Expandiendo: CC con valor: 0.667
+	CCA -> 0.417
+	ACC -> 0.000
+	CCT -> 0.000
+	TCC -> 0.500
+Expandiendo: TCC con valor: 0.500
+	TCCA -> 0.000
+	ATCC -> 0.667
+Expandiendo: ATCC con valor: 0.667
+	ATCCA -> 0.000
+	AATCC -> 0.000
+	ATCCT -> 0.000
+	TATCC -> 0.000
+	ATCCC -> 0.833
+	CATCC -> 0.694
+Expandiendo: ATCCC con valor: 0.833
+	ATCCCA -> 0.000
+	AATCCC -> 0.000
+	ATCCCT -> 0.000
+	TATCCC -> 0.000
+	ATCCCC -> 1.000
+	CATCCC -> 0.833
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	ATCCCG -> 0.000
+	GATCCC -> 0.000
+	ATCCG -> 0.000
+	GATCC -> 0.000
+	TCCT -> 0.000
+	TTCC -> 0.000
+	TCCC -> 0.667
+	CTCC -> 0.000
+Expandiendo: TCCC con valor: 0.667
+	TCCCA -> 0.000
+	ATCCC -> 0.833
+Expandiendo: ATCCC con valor: 0.833
+	ATCCCA -> 0.000
+	AATCCC -> 0.000
+	ATCCCT -> 0.000
+	TATCCC -> 0.000
+	ATCCCC -> 1.000
+	CATCCC -> 0.833
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	ATCCCG -> 0.000
+	GATCCC -> 0.000
+	TCCCT -> 0.000
+	TTCCC -> 0.000
+	TCCCC -> 0.833
+	CTCCC -> 0.000
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	TCCCG -> 0.000
+	GTCCC -> 0.000
+	TCCG -> 0.000
+	GTCC -> 0.000
+	CCC -> 0.500
+	CCC -> 0.500
+Expandiendo: CCC con valor: 0.500
+	CCCA -> 0.556
+	ACCC -> 0.000
+Expandiendo: CCCA con valor: 0.556
+	CCCAA -> 0.000
+	ACCCA -> 0.000
+	CCCAT -> 0.694
+	TCCCA -> 0.000
+Expandiendo: CCCAT con valor: 0.694
+	CCCATA -> 0.000
+	ACCCAT -> 0.000
+	CCCATT -> 0.000
+	TCCCAT -> 0.000
+	CCCATC -> 0.833
+	CCCCAT -> 0.833
+Expandiendo: CCCATC con valor: 0.833
+	CCCATCA -> 0.000
+	ACCCATC -> 0.000
+	CCCATCT -> 0.000
+	TCCCATC -> 0.000
+	CCCATCC -> 0.583
+	CCCCATC -> 0.583
+	CCCATCG -> 0.000
+	GCCCATC -> 0.000
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+	CCCATG -> 0.000
+	GCCCAT -> 0.000
+	CCCAC -> 0.000
+	CCCCA -> 0.694
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCAG -> 0.000
+	GCCCA -> 0.000
+	CCCT -> 0.000
+	TCCC -> 0.667
+Expandiendo: TCCC con valor: 0.667
+	TCCCA -> 0.000
+	ATCCC -> 0.833
+Expandiendo: ATCCC con valor: 0.833
+	ATCCCA -> 0.000
+	AATCCC -> 0.000
+	ATCCCT -> 0.000
+	TATCCC -> 0.000
+	ATCCCC -> 1.000
+	CATCCC -> 0.833
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	ATCCCG -> 0.000
+	GATCCC -> 0.000
+	TCCCT -> 0.000
+	TTCCC -> 0.000
+	TCCCC -> 0.833
+	CTCCC -> 0.000
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	TCCCG -> 0.000
+	GTCCC -> 0.000
+	CCCC -> 0.667
+	CCCC -> 0.667
+Expandiendo: CCCC con valor: 0.667
+	CCCCA -> 0.694
+	ACCCC -> 0.000
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCCT -> 0.000
+	TCCCC -> 0.833
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCG -> 0.000
+	GCCCC -> 0.000
+Expandiendo: CCCC con valor: 0.667
+	CCCCA -> 0.694
+	ACCCC -> 0.000
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCCT -> 0.000
+	TCCCC -> 0.833
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCG -> 0.000
+	GCCCC -> 0.000
+	CCCG -> 0.000
+	GCCC -> 0.000
+Expandiendo: CCC con valor: 0.500
+	CCCA -> 0.556
+	ACCC -> 0.000
+Expandiendo: CCCA con valor: 0.556
+	CCCAA -> 0.000
+	ACCCA -> 0.000
+	CCCAT -> 0.694
+	TCCCA -> 0.000
+Expandiendo: CCCAT con valor: 0.694
+	CCCATA -> 0.000
+	ACCCAT -> 0.000
+	CCCATT -> 0.000
+	TCCCAT -> 0.000
+	CCCATC -> 0.833
+	CCCCAT -> 0.833
+Expandiendo: CCCATC con valor: 0.833
+	CCCATCA -> 0.000
+	ACCCATC -> 0.000
+	CCCATCT -> 0.000
+	TCCCATC -> 0.000
+	CCCATCC -> 0.583
+	CCCCATC -> 0.583
+	CCCATCG -> 0.000
+	GCCCATC -> 0.000
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+	CCCATG -> 0.000
+	GCCCAT -> 0.000
+	CCCAC -> 0.000
+	CCCCA -> 0.694
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCAG -> 0.000
+	GCCCA -> 0.000
+	CCCT -> 0.000
+	TCCC -> 0.667
+Expandiendo: TCCC con valor: 0.667
+	TCCCA -> 0.000
+	ATCCC -> 0.833
+Expandiendo: ATCCC con valor: 0.833
+	ATCCCA -> 0.000
+	AATCCC -> 0.000
+	ATCCCT -> 0.000
+	TATCCC -> 0.000
+	ATCCCC -> 1.000
+	CATCCC -> 0.833
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	ATCCCG -> 0.000
+	GATCCC -> 0.000
+	TCCCT -> 0.000
+	TTCCC -> 0.000
+	TCCCC -> 0.833
+	CTCCC -> 0.000
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	TCCCG -> 0.000
+	GTCCC -> 0.000
+	CCCC -> 0.667
+	CCCC -> 0.667
+Expandiendo: CCCC con valor: 0.667
+	CCCCA -> 0.694
+	ACCCC -> 0.000
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCCT -> 0.000
+	TCCCC -> 0.833
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCG -> 0.000
+	GCCCC -> 0.000
+Expandiendo: CCCC con valor: 0.667
+	CCCCA -> 0.694
+	ACCCC -> 0.000
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCCT -> 0.000
+	TCCCC -> 0.833
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCG -> 0.000
+	GCCCC -> 0.000
+	CCCG -> 0.000
+	GCCC -> 0.000
+	CCG -> 0.000
+	GCC -> 0.000
+Expandiendo: CC con valor: 0.667
+	CCA -> 0.417
+	ACC -> 0.000
+	CCT -> 0.000
+	TCC -> 0.500
+Expandiendo: TCC con valor: 0.500
+	TCCA -> 0.000
+	ATCC -> 0.667
+Expandiendo: ATCC con valor: 0.667
+	ATCCA -> 0.000
+	AATCC -> 0.000
+	ATCCT -> 0.000
+	TATCC -> 0.000
+	ATCCC -> 0.833
+	CATCC -> 0.694
+Expandiendo: ATCCC con valor: 0.833
+	ATCCCA -> 0.000
+	AATCCC -> 0.000
+	ATCCCT -> 0.000
+	TATCCC -> 0.000
+	ATCCCC -> 1.000
+	CATCCC -> 0.833
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	ATCCCG -> 0.000
+	GATCCC -> 0.000
+	ATCCG -> 0.000
+	GATCC -> 0.000
+	TCCT -> 0.000
+	TTCC -> 0.000
+	TCCC -> 0.667
+	CTCC -> 0.000
+Expandiendo: TCCC con valor: 0.667
+	TCCCA -> 0.000
+	ATCCC -> 0.833
+Expandiendo: ATCCC con valor: 0.833
+	ATCCCA -> 0.000
+	AATCCC -> 0.000
+	ATCCCT -> 0.000
+	TATCCC -> 0.000
+	ATCCCC -> 1.000
+	CATCCC -> 0.833
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	ATCCCG -> 0.000
+	GATCCC -> 0.000
+	TCCCT -> 0.000
+	TTCCC -> 0.000
+	TCCCC -> 0.833
+	CTCCC -> 0.000
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	TCCCG -> 0.000
+	GTCCC -> 0.000
+	TCCG -> 0.000
+	GTCC -> 0.000
+	CCC -> 0.500
+	CCC -> 0.500
+Expandiendo: CCC con valor: 0.500
+	CCCA -> 0.556
+	ACCC -> 0.000
+Expandiendo: CCCA con valor: 0.556
+	CCCAA -> 0.000
+	ACCCA -> 0.000
+	CCCAT -> 0.694
+	TCCCA -> 0.000
+Expandiendo: CCCAT con valor: 0.694
+	CCCATA -> 0.000
+	ACCCAT -> 0.000
+	CCCATT -> 0.000
+	TCCCAT -> 0.000
+	CCCATC -> 0.833
+	CCCCAT -> 0.833
+Expandiendo: CCCATC con valor: 0.833
+	CCCATCA -> 0.000
+	ACCCATC -> 0.000
+	CCCATCT -> 0.000
+	TCCCATC -> 0.000
+	CCCATCC -> 0.583
+	CCCCATC -> 0.583
+	CCCATCG -> 0.000
+	GCCCATC -> 0.000
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+	CCCATG -> 0.000
+	GCCCAT -> 0.000
+	CCCAC -> 0.000
+	CCCCA -> 0.694
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCAG -> 0.000
+	GCCCA -> 0.000
+	CCCT -> 0.000
+	TCCC -> 0.667
+Expandiendo: TCCC con valor: 0.667
+	TCCCA -> 0.000
+	ATCCC -> 0.833
+Expandiendo: ATCCC con valor: 0.833
+	ATCCCA -> 0.000
+	AATCCC -> 0.000
+	ATCCCT -> 0.000
+	TATCCC -> 0.000
+	ATCCCC -> 1.000
+	CATCCC -> 0.833
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	ATCCCG -> 0.000
+	GATCCC -> 0.000
+	TCCCT -> 0.000
+	TTCCC -> 0.000
+	TCCCC -> 0.833
+	CTCCC -> 0.000
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	TCCCG -> 0.000
+	GTCCC -> 0.000
+	CCCC -> 0.667
+	CCCC -> 0.667
+Expandiendo: CCCC con valor: 0.667
+	CCCCA -> 0.694
+	ACCCC -> 0.000
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCCT -> 0.000
+	TCCCC -> 0.833
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCG -> 0.000
+	GCCCC -> 0.000
+Expandiendo: CCCC con valor: 0.667
+	CCCCA -> 0.694
+	ACCCC -> 0.000
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCCT -> 0.000
+	TCCCC -> 0.833
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCG -> 0.000
+	GCCCC -> 0.000
+	CCCG -> 0.000
+	GCCC -> 0.000
+Expandiendo: CCC con valor: 0.500
+	CCCA -> 0.556
+	ACCC -> 0.000
+Expandiendo: CCCA con valor: 0.556
+	CCCAA -> 0.000
+	ACCCA -> 0.000
+	CCCAT -> 0.694
+	TCCCA -> 0.000
+Expandiendo: CCCAT con valor: 0.694
+	CCCATA -> 0.000
+	ACCCAT -> 0.000
+	CCCATT -> 0.000
+	TCCCAT -> 0.000
+	CCCATC -> 0.833
+	CCCCAT -> 0.833
+Expandiendo: CCCATC con valor: 0.833
+	CCCATCA -> 0.000
+	ACCCATC -> 0.000
+	CCCATCT -> 0.000
+	TCCCATC -> 0.000
+	CCCATCC -> 0.583
+	CCCCATC -> 0.583
+	CCCATCG -> 0.000
+	GCCCATC -> 0.000
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+	CCCATG -> 0.000
+	GCCCAT -> 0.000
+	CCCAC -> 0.000
+	CCCCA -> 0.694
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCAG -> 0.000
+	GCCCA -> 0.000
+	CCCT -> 0.000
+	TCCC -> 0.667
+Expandiendo: TCCC con valor: 0.667
+	TCCCA -> 0.000
+	ATCCC -> 0.833
+Expandiendo: ATCCC con valor: 0.833
+	ATCCCA -> 0.000
+	AATCCC -> 0.000
+	ATCCCT -> 0.000
+	TATCCC -> 0.000
+	ATCCCC -> 1.000
+	CATCCC -> 0.833
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	ATCCCG -> 0.000
+	GATCCC -> 0.000
+	TCCCT -> 0.000
+	TTCCC -> 0.000
+	TCCCC -> 0.833
+	CTCCC -> 0.000
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	TCCCG -> 0.000
+	GTCCC -> 0.000
+	CCCC -> 0.667
+	CCCC -> 0.667
+Expandiendo: CCCC con valor: 0.667
+	CCCCA -> 0.694
+	ACCCC -> 0.000
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCCT -> 0.000
+	TCCCC -> 0.833
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCG -> 0.000
+	GCCCC -> 0.000
+Expandiendo: CCCC con valor: 0.667
+	CCCCA -> 0.694
+	ACCCC -> 0.000
+Expandiendo: CCCCA con valor: 0.694
+	CCCCAA -> 0.000
+	ACCCCA -> 0.000
+	CCCCAT -> 0.833
+	TCCCCA -> 0.833
+Expandiendo: CCCCAT con valor: 0.833
+	CCCCATA -> 0.000
+	ACCCCAT -> 0.000
+	CCCCATT -> 0.000
+	TCCCCAT -> 0.583
+	CCCCATC -> 0.583
+	CCCCCAT -> 0.000
+	CCCCATG -> 0.000
+	GCCCCAT -> 0.000
+Expandiendo: TCCCCA con valor: 0.833
+	TCCCCAA -> 0.000
+	ATCCCCA -> 0.583
+	TCCCCAT -> 0.583
+	TTCCCCA -> 0.000
+	TCCCCAC -> 0.000
+	CTCCCCA -> 0.000
+	TCCCCAG -> 0.000
+	GTCCCCA -> 0.000
+	CCCCAC -> 0.000
+	CCCCCA -> 0.000
+	CCCCAG -> 0.000
+	GCCCCA -> 0.000
+	CCCCT -> 0.000
+	TCCCC -> 0.833
+Expandiendo: TCCCC con valor: 0.833
+	TCCCCA -> 0.833
+	ATCCCC -> 1.000
+Expandiendo: ATCCCC con valor: 1.000
+	ATCCCCA -> 0.583
+	AATCCCC -> 0.000
+	ATCCCCT -> 0.000
+	TATCCCC -> 0.000
+	ATCCCCC -> 0.000
+	CATCCCC -> 0.583
+	ATCCCCG -> 0.000
+	GATCCCC -> 0.000
+	TCCCCT -> 0.000
+	TTCCCC -> 0.000
+	TCCCCC -> 0.000
+	CTCCCC -> 0.000
+	TCCCCG -> 0.000
+	GTCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCC -> 0.000
+	CCCCG -> 0.000
+	GCCCC -> 0.000
+	CCCG -> 0.000
+	GCCC -> 0.000
+	CCG -> 0.000
+	GCC -> 0.000
+	CG -> 0.000
+	GC -> 0.000
+ATCCCC -> 1	(1.000)
+Cadena comprimida y descomprimida correctamente
+6 bits ocupados al comprimir usando algoritmo complejo.
