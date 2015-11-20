@@ -92,19 +92,12 @@ char* substring(char* input, int start, int end)
 char* concat(char *a, char *b)
 {
 	if(a == NULL || b == NULL){
-		return NULL;
+		return a;
 	}
-	int nConcat = 0;
 	char *concat = malloc((strlen(a) + strlen(b) + 1) * sizeof(char));
-	for(int i = 0; i < (strlen(a)); i++){
-		concat[nConcat] = a[i];
-		nConcat++;
-	}
-	for(int i = 0; i < (strlen(b)); i++){
-		concat[nConcat] = b[i];
-		nConcat++;
-	}
-	concat[nConcat] = '\0';
+	strncpy(concat, a, strlen(a));
+	strncpy(concat + strlen(a), b, strlen(b));
+	concat[strlen(concat)] = '\0';
 	return concat;
 }
 

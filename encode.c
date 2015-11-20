@@ -21,7 +21,6 @@ int checkInput(char *input);
 int checkChar(char character);
 int main(int argc, char *argv[])
 {
-	
 	char *fileName = NULL;
 	int c;
 	while((c = getopt(argc, argv,"hf:")) != -1){
