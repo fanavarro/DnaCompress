@@ -30,11 +30,13 @@ int main (int argc, char *argv[])
 				break;
 			case 'h':
 			default:
-				printf("Uso: simprob -f binaryFile -t huffmanTableFile -o outputFile\n");
+				printf("Uso: decode -f binaryFile -t huffmanTableFile -o outputFile\n");
 				return -1;
 		}
 	}
-
+	if(binFileName == NULL || tableFileName == NULL || outFileName == NULL){
+		printf("Uso: decode -f binaryFile -t huffmanTableFile -o outputFile\n");
+	}
 	FILE *input = fopen(binFileName, "r");
 	if(input == NULL){
 		printf("Error abriendo fichero %s\n", binFileName);

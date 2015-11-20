@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	if(fileName == NULL){
-		printf("Uso: simprob -f fileToCompress\n");
+		printf("Uso: encode -f fileToCompress\n");
 	}
 	FILE *file = fopen(fileName, "r");
 	if(file == NULL){
