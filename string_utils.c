@@ -97,7 +97,7 @@ char* concat(char *a, char *b)
 	char *concat = malloc((strlen(a) + strlen(b) + 1) * sizeof(char));
 	strncpy(concat, a, strlen(a));
 	strncpy(concat + strlen(a), b, strlen(b));
-	concat[strlen(concat)] = '\0';
+	concat[strlen(a) + strlen(b)] = '\0';
 	return concat;
 }
 

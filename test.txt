@@ -1,0 +1,52 @@
+Tabla de Huffman para el algoritmo simple:
+A -> 01	(0.291)
+T -> 00	(0.317)
+C -> 10	(0.208)
+G -> 11	(0.184)
+1558 bits ocupados al comprimir usando algoritmo simple.
+
+Mejor simbolo encontrado: T -> 0.317
+	TA -> 0.187
+	AT -> 0.190
+	TT -> 0.146
+	TT -> 0.146
+	TC -> 0.128
+	CT -> 0.159
+	TG -> 0.126
+	GT -> 0.092
+Mejor simbolo encontrado: A -> 0.291
+	AA -> 0.116
+	AA -> 0.116
+	AT -> 0.000
+	TA -> 0.000
+	AC -> 0.121
+	CA -> 0.118
+	AG -> 0.123
+	GA -> 0.128
+Mejor simbolo encontrado: C -> 0.208
+	CA -> 0.000
+	AC -> 0.000
+	CT -> 0.000
+	TC -> 0.000
+	CC -> 0.067
+	CC -> 0.067
+	CG -> 0.062
+	GC -> 0.090
+Mejor simbolo encontrado: G -> 0.184
+	GA -> 0.000
+	AG -> 0.000
+	GT -> 0.000
+	TG -> 0.000
+	GC -> 0.000
+	CG -> 0.000
+	GG -> 0.049
+	GG -> 0.049
+Tabla de Huffman para el algoritmo complejo:
+T -> 00	(0.317)
+A -> 01	(0.291)
+C -> 10	(0.208)
+G -> 11	(0.184)
+1558 bits ocupados al comprimir usando algoritmo complejo.
+
+Relacion de compresion para el algoritmo simple: 6232/1558=4.000
+Relacion de compresion para el algoritmo complejo: 6232/1558=4.000

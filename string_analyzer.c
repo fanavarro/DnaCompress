@@ -44,7 +44,7 @@ StringValueList* groupSymbols(char * input, char *alphabet)
 		free(symbolCount);
 
 		/* A partir del simbolo mas puntos, se empiezan a buscar subcadenas a partir de el en input */
-		printf("Mejor simbolo encontrado: %s -> %.3f\n", bestCombination, bestEvaluation);
+		//printf("Mejor simbolo encontrado: %s -> %.3f\n", bestCombination, bestEvaluation);
 		auxExpandPrefix = malloc(sizeof(StringValueList));
 		initStringValueList(auxExpandPrefix);
 		expandBestCombination(inputCopy, alphabet, bestCombination, bestEvaluation, auxExpandPrefix);
