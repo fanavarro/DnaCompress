@@ -1,4 +1,10 @@
-all: encode decode
+all: encode decode testN
+
+testN: testN.o simprob_utils.o number_utils.o probabilidad.o huffman_tree.o huffman_table.o huffman.o coder.o string_analyzer.o string_utils.o string_list.o string_value_list.o
+	gcc -Wall -g -pg -o testN testN.o simprob_utils.o number_utils.o probabilidad.o huffman_tree.o huffman_table.o huffman.o coder.o string_analyzer.o string_utils.o string_list.o string_value_list.o -lm
+
+testN.o: testN.c
+	gcc -Wall -g -pg -o testN.o -c testN.c
 
 decode: decode.o simprob_utils.o number_utils.o probabilidad.o huffman_tree.o huffman_table.o huffman.o coder.o string_analyzer.o string_utils.o string_list.o string_value_list.o
 	gcc -Wall -g -pg -o decode decode.o simprob_utils.o number_utils.o probabilidad.o huffman_tree.o huffman_table.o huffman.o coder.o string_analyzer.o string_utils.o string_list.o string_value_list.o -lm
@@ -46,4 +52,4 @@ string_list_value.o: string_value_list.h string_value_list.c
 	gcc -Wall -g -pg -o string_value_list.o -c string_value_list.c
 
 clean:
-	rm *.o encode decode
+	rm *.o encode decode testN
