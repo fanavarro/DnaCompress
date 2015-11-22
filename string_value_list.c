@@ -80,9 +80,12 @@ int getPosMaxStringValue(StringValueList *l)
 
 	double maxValue = -1;
 	int maxPos = -1;
+	int maxLength = -1;
 	for(int i = 0; i < l->length; i++){
-		if(l->value[i] > maxValue){
+		if((l->value[i] > maxValue) || (l->value[i] == maxValue && strlen(l->string[i]) > maxLength)){
 			maxPos = i;
+			maxValue = l->value[i];
+			maxLength = strlen(l->string[i]);
 		}
 	}
 

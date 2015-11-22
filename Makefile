@@ -48,7 +48,7 @@ string_utils.o: string_utils.h string_utils.c
 string_list.o: string_list.h string_list.c
 	gcc -Wall -g -pg -o string_list.o -c string_list.c
 
-string_list_value.o: string_value_list.h string_value_list.c
+string_value_list.o: string_value_list.h string_value_list.c
 	gcc -Wall -g -pg -o string_value_list.o -c string_value_list.c
 
 clean:
